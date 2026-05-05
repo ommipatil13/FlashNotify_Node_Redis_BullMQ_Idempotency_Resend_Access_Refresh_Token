@@ -3,7 +3,7 @@ This project, FlashNotify, is a high-performance Distributed Notification Engine
 Here is the breakdown of why this project is impressive:
 
 1. The Problem it Solves
-Most servers crash if they try to send 15,000 emails at once because each email takes 1-2 seconds. FlashNotify solves this by using a "Queue and Worker" architecture. The API accepts the request in milliseconds and "buffers" it in Redis, while background workers process the actual emails at their own speed.
+Most servers crash if they try to send 5,000 emails at once because each email takes 1-2 seconds. FlashNotify solves this by using a "Queue and Worker" architecture. The API accepts the request in milliseconds and "buffers" it in Redis, while background workers process the actual emails at their own speed.
 
 2. The Core Features
 Idempotency (Double-Send Protection): Uses Redis to ensure that even if a network error causes a retry, the same notification is never sent twice.
