@@ -1,4 +1,4 @@
-This project, FlashNotify, is a high-performance Distributed Notification Engine built to handle massive traffic spikes (like sending 15,000 notifications in seconds) without crashing the server.
+This project, FlashNotify, is a high-performance Distributed Notification Engine built to handle massive traffic spikes (like sending 5,000 notifications in seconds) without crashing the server.
 
 Here is the breakdown of why this project is impressive:
 
